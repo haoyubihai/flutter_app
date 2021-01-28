@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutterApp/ExpandPage.dart';
+import 'package:flutterApp/ListPage3.dart';
 
 void main() {
   runApp(MyApp());
@@ -13,7 +15,10 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: ContainerPage(),
+      home: Scaffold(
+        appBar: AppBar(title: Text("flutter"),),
+        body: ExpandPage(),
+      ),
     );
   }
 }
