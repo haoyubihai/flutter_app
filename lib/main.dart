@@ -10,6 +10,7 @@ import 'package:flutterApp/home-pages/TabPersonPage.dart';
 import 'package:flutterApp/home-pages/TabSearchPage.dart';
 
 import 'AspectRatioPage.dart';
+import 'onboading/HomeBoading.dart';
 
 void main() {
   runApp(MyApp());
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: HomeWidget(),
+      home: HomeBoardingApp(),
     );
   }
 }
