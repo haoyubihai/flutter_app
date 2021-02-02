@@ -8,10 +8,11 @@ import 'package:flutterApp/home-pages/SearchPage.dart';
 import 'package:flutterApp/home-pages/TabHomePage.dart';
 import 'package:flutterApp/home-pages/TabPersonPage.dart';
 import 'package:flutterApp/home-pages/TabSearchPage.dart';
+import 'package:flutterApp/routes/routes.dart';
 import 'package:flutterApp/sliver-demo/SliverHome.dart';
 
 import 'AspectRatioPage.dart';
-import 'onboading/HomeBoading.dart';
+import 'onboading/BoadingHome.dart';
 
 void main() {
   runApp(MyApp());
@@ -22,12 +23,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
+      routes: Routes.routes,
       theme: ThemeData(
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       // home: HomeBoardingApp(),
-      home: SliverHome(),
+      home: HomeWidget(),
     );
   }
 }
@@ -51,6 +53,7 @@ class _HomeState extends State {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+
       appBar: AppBar(
         title: Text("flutter"),
       ),
