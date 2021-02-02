@@ -8,6 +8,7 @@ import 'package:flutterApp/home-pages/SearchPage.dart';
 import 'package:flutterApp/home-pages/TabHomePage.dart';
 import 'package:flutterApp/home-pages/TabPersonPage.dart';
 import 'package:flutterApp/home-pages/TabSearchPage.dart';
+import 'package:flutterApp/sliver-demo/SliverHome.dart';
 
 import 'AspectRatioPage.dart';
 import 'onboading/HomeBoading.dart';
@@ -25,7 +26,8 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: HomeBoardingApp(),
+      // home: HomeBoardingApp(),
+      home: SliverHome(),
     );
   }
 }
