@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutterApp/onboading/CardData.dart';
-import 'package:flutterApp/onboading/page_indicator.dart';
+import 'package:flutterApp/home-pages/onboading/CardData.dart';
+import 'package:flutterApp/home-pages/onboading/page_indicator.dart';
 import 'package:gradient_text/gradient_text.dart';
 
 /// https://www.bilibili.com/video/BV1nE411i7Y2?t=5

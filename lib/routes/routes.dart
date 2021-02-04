@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutterApp/iniherit-test/inherit_page.dart';
-import 'package:flutterApp/onboading/BoadingHome.dart';
-import 'package:flutterApp/sliver-demo/SliverHome.dart';
+import 'package:flutterApp/home-pages/iniherit-test/inherit_page.dart';
+import 'package:flutterApp/home-pages/onboading/BoadingHome.dart';
+import 'package:flutterApp/home-pages/sliver-demo/SliverHome.dart';
 
 class Routes {
   static final pageNames = [
