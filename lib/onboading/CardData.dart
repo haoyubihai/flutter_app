@@ -10,19 +10,19 @@ List<List<Color>> gradients = [
 
 var  pageList = [
   PageModel(
-    imgUrl: "assets/car/1.jpg",
+    imgUrl: "assets/images/car/1.jpg",
     title: "Por 959",
     body: "集合众多科技与一身百公里时速3.7秒",
       titleGradient:gradients[0]
   ),
   PageModel(
-      imgUrl: "assets/car/2.jpg",
+      imgUrl: "assets/images/car/2.jpg",
       title: "LANCIA",
       body: "集合众多科技与一身百公里时速3.7秒",
       titleGradient:gradients[0]
   ),
   PageModel(
-      imgUrl: "assets/car/3.jpg",
+      imgUrl: "assets/images/car/3.jpg",
       title: "Por 989",
       body: "集合众多科技与一身百公里时速3.7秒",
       titleGradient:gradients[0]

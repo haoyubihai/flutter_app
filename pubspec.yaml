@@ -29,6 +29,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.0
   gradient_text: ^1.0.2
+  flutter_svg: ^0.19.1
 
 dev_dependencies:
   flutter_test:
@@ -40,7 +41,9 @@ dev_dependencies:
 # The following section is specific to Flutter.
 flutter:
   assets:
-    - assets/car/
+    - assets/icons/
+    - assets/images/car/
+    - assets/images/covid-19/
 
 
   # The following line ensures that the Material Icons font is
