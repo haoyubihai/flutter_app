@@ -4,6 +4,8 @@ import 'package:flutterApp/home-pages/TabPersonPage.dart';
 import 'package:flutterApp/home-pages/TabSearchPage.dart';
 import 'package:flutterApp/routes/routes.dart';
 
+import 'home-pages/covid/constant.dart';
+
 void main() {
   runApp(MyApp());
 }
@@ -14,9 +16,15 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       routes: Routes.routes,
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
-        visualDensity: VisualDensity.adaptivePlatformDensity,
+          primarySwatch: Colors.blue,
+          visualDensity: VisualDensity.adaptivePlatformDensity,
+          scaffoldBackgroundColor: kBackgroundColor,
+          fontFamily: "Poppins",
+          textTheme: TextTheme(
+              bodyText2: TextStyle(color: kBodyTextColor)
+          )
       ),
       // home: HomeBoardingApp(),
       home: HomeWidget(),
